@@ -1,0 +1,15 @@
+[project]
+name = "state-prediction"
+version = "0.1.0"
+description = "Next-state retrieval with Qwen-VL special embedding tokens"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets",
+    "numpy",
+    "peft",
+    "pillow",
+    "safetensors",
+    "torch",
+    "transformers",
+]

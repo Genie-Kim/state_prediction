@@ -1,0 +1,19 @@
+{
+  "num_emb_tokens": 1,
+  "dino_model": "facebook/dinov3-vitb16-pretrain-lvd1689m",
+  "latent_dim": 768,
+  "q_proj_num_layers": 2,
+  "q_proj_hidden_dim": null,
+  "anchor_residual": false,
+  "temperature": 0.05,
+  "lambda_lm": 0.5,
+  "lambda_ret": 1.0,
+  "mask_same_image": true,
+  "mask_adjacent_steps": 1,
+  "num_hard_negatives": 4,
+  "latent_store": "latents/nsr_train",
+  "prompt_lang": "ko",
+  "include_anchor": true,
+  "new_token_init_noise": 0.02,
+  "seed": 42
+}
